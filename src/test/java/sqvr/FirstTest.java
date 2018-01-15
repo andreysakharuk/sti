@@ -7,9 +7,6 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Andrei_Sakharuk on 1/15/2018.
- */
 
 public class FirstTest {
 
@@ -26,6 +23,7 @@ public class FirstTest {
         driver.findElement(By.name("username")).sendKeys("ba");
         driver.findElement(By.name("password")).sendKeys("1");
         driver.findElement(By.className("btn btn-blue bb-enter-form-btn")).click();
+        System.out.println("Action2");
     }
 
 }
