@@ -25,6 +25,7 @@ public class FirstTest {
         driver.findElement(By.className("btn btn-blue bb-enter-form-btn")).click();
         System.out.println("Action2");
         System.out.println("ssh added");
+        System.out.println("Syuyu ");
     }
 
 }
