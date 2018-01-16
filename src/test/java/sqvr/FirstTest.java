@@ -26,6 +26,7 @@ public class FirstTest {
 
 
         System.out.println("New Git checking");
+        System.out.println("New Git checking2");
     }
 
 }
