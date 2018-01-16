@@ -23,9 +23,10 @@ public class FirstTest {
         driver.findElement(By.name("username")).sendKeys("ba");
         driver.findElement(By.name("password")).sendKeys("1");
         driver.findElement(By.className("btn btn-blue bb-enter-form-btn")).click();
-        System.out.println("Action2");
-        System.out.println("ssh added");
-        System.out.println("Syuyu ");
+
+
+        System.out.println("New Git checking");
+        System.out.println("New Git checking2");
     }
 
 }
