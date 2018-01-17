@@ -31,7 +31,7 @@ public class FirstTest {
         LOGGER.info("Log with info");
         driver.quit();
 
-        LOGGER.info("------------------");
+        LOGGER.info("++++++++++++++++");
 
     }
 
