@@ -31,7 +31,7 @@ public class FirstTest {
         LOGGER.info("Log with info");
         driver.quit();
 
-        LOGGER.info("local_branch no chnages that we have in master!!!!!!!!!!!!!");
+        LOGGER.info("------------------");
 
     }
 
