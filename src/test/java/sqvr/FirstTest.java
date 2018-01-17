@@ -32,6 +32,7 @@ public class FirstTest {
         driver.quit();
 
         LOGGER.info("local branch to master ++++++++++++++++");
+        LOGGER.info("local branch to master ++++++++++++++++");
 
     }
 
