@@ -31,7 +31,7 @@ public class FirstTest {
         LOGGER.info("Log with info");
         driver.quit();
 
-        LOGGER.info("from local master to origin master!!!!!!!!");
+        LOGGER.info("local branch to master ++++++++++++++++");
 
     }
 
