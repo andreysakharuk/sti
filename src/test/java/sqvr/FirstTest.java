@@ -27,11 +27,8 @@ public class FirstTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='copy_2W']")));
         driver.findElement(By.xpath("//button[@data-target='#modalLogin']")).click();
         driver.findElement(By.name("username")).sendKeys("ba");
-        driver.findElement(By.name("password")).sendKeys("1");
-        LOGGER.info("Log with info");
-        driver.quit();
-
         LOGGER.info("local home2");
+
 
     }
 
