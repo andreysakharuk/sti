@@ -31,7 +31,8 @@ public class FirstTest {
         LOGGER.info("Log with info");
         driver.quit();
 
-        LOGGER.info("local_home2 push to master");
+        LOGGER.info("local_branch no chnages that we have in master");
+
     }
 
 }
