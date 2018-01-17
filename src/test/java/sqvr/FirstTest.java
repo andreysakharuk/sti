@@ -30,6 +30,7 @@ public class FirstTest {
         driver.findElement(By.name("password")).sendKeys("1");
         LOGGER.info("Log with info");
         driver.quit();
+        System.out.print("work");
     }
 
 }
