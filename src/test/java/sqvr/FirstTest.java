@@ -32,6 +32,7 @@ public class FirstTest {
         driver.quit();
 
         LOGGER.info("local_branch no chnages that we have in master");
+
     }
 
 }
