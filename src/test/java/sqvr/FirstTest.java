@@ -28,6 +28,7 @@ public class FirstTest {
         driver.findElement(By.xpath("//button[@data-target='#modalLogin']")).click();
         driver.findElement(By.name("username")).sendKeys("ba");
         LOGGER.info("local home2");
+        LOGGER.info("local home5");
 
 
     }
