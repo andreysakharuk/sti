@@ -29,6 +29,7 @@ public class FirstTest {
         driver.findElement(By.name("username")).sendKeys("ba");
         LOGGER.info("local home2");
         LOGGER.info("local home5");
+        LOGGER.info("local home2");
 
 
     }
