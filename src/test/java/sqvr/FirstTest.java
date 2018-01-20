@@ -31,7 +31,6 @@ public class FirstTest {
         LOGGER.info("local home5");
         LOGGER.info("local home2");
 
-
     }
 
 }

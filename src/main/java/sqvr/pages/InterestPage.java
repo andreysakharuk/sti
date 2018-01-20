@@ -10,7 +10,7 @@ public class InterestPage extends BasePage{
         super(driver);
     }
 
-    @FindBy (xpath = "//h1[@class='db5__title']")
+    @FindBy (css = "h1.db5__title")
     private WebElement inrerestHeader;
 
     public String getInterestHeader() {
