@@ -10,7 +10,7 @@ public class ChapterOne {
               word = "bottle";
 
           }
-          System.out.println(beerNum + " " + word + " of the beer on the table. ");
+          System.out.println(beerNum + " " + word + " of the beer on the table.  ");
           System.out.println(beerNum + " " + word + " of the beer on the table. ");
           System.out.println("Take one. ");
           System.out.println("Ride round. ");
