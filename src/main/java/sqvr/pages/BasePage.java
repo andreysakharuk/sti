@@ -20,19 +20,19 @@ public class BasePage {
     @FindBy (xpath = "//a[@data-target='#modalFindHOA']")
     private WebElement findHomeLink;
 
-    @FindBy (xpath = "//div[@id='modalFindHOA']//h1[@class='h1']")
+    @FindBy (css = "div#modalFindHOA h1.h1")
     private WebElement findHomeModalHeader;
 
     @FindBy (xpath = "//button[@data-target='#modalCode']")
     private WebElement enterCodeLink;
 
-    @FindBy (xpath = "//div[@id='modalCode']//h1[@class='h1']")
+    @FindBy (css = "div#modalCode h1.h1")
     private WebElement enterCodeModalHeader;
 
     @FindBy (xpath = "//button[@data-target='#modalLogin']")
     private WebElement loginLink;
 
-    @FindBy (xpath = "//div[@id='modalLogin']//h1[@class='h1']")
+    @FindBy (css = "div#modalLogin h1.h1")
     private WebElement loginModalHeader;
 
     @FindBy (name = "username")

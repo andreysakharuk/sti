@@ -10,6 +10,7 @@ import sqvr.pages.ControlPage;
 import sqvr.pages.HomePage;
 import sqvr.pages.InterestPage;
 import sqvr.pages.MeetingsPage;
+import sqvr.pages.RegistrationPage;
 
 import java.util.concurrent.TimeUnit;
 
@@ -106,6 +107,23 @@ public class LandingTests {
         homePage.enterCredentialsInLoginModal(login, password);
         homePage.clickLoginButtonInLoginModal();
         System.out.println("Тест 7 успешно завершен");
+    }
+
+    @Test (description = "зарегистрироваться как собственник")
+    public void signUpAsOwner() throws Exception {
+        String lastName = "Азино 3 топора";
+        String firstName = "Витя-Ак";
+        String middleName = "Рэппер- шмэппер";
+        HomePage homePage = new HomePage(driver);
+        homePage.waitForChatAppearance();
+        homePage.clickOnSignUpButton();
+        RegistrationPage registrationPage = homePage.clickOnOwnerButton();
+        registrationPage.enterFIO(lastName, firstName, middleName);
+        /*
+        registrationPage.enterLastName(lastName);
+        registrationPage.enterFirstName(firstName);
+        registrationPage.enterMiddleNamke(middleName);
+        */
     }
 
     @AfterMethod
